@@ -1,0 +1,44 @@
+# ===============================
+#        Build directories
+# ===============================
+build/
+cmake-build-*/
+
+# ===============================
+#      CMake generated files
+# ===============================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# ===============================
+#   Compiled objects & binaries
+# ===============================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# ===============================
+#     Debug & temporary files
+# ===============================
+*.log
+*.tmp
+*.out
+*.stackdump
+
+# ===============================
+#             macOS
+# ===============================
+.DS_Store
+
+# ===============================
+#             VS Code
+# ===============================
+.vscode/
